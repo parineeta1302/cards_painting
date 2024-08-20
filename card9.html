@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card 9 Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        .detail-container {
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 40px auto;
+            max-width: 800px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: rgb(48, 3, 161);
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: rgb(62, 2, 212);
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="detail-container">
+        <center>
+        <button onclick="goBack()">Back</button>
+        <h1>The Japanese Footbridge And The Water Lily Pool</h1>
+        <h2>-By Claude Monet</h2>
+        <img src="card9.jpg" alt="The Japanese Footbridge And The Water Lily Pool">
+        <p>The water lily's green leaves are dispersed around the pond and may be seen floating on top of the water. The huge flowers of the water lilies, which are blooming in abundance, protrude from the water. Although the flowers are primarily white, Monet gives them a few glimpses of other colors, including blue, pink, red, and yellow.</p>
+        </center>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

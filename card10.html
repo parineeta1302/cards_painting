@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card 10 Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        .detail-container {
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 40px auto;
+            max-width: 800px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: rgb(48, 3, 161);
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: rgb(62, 2, 212);
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="detail-container">
+        <center>
+        <button onclick="goBack()">Back</button>
+        <h1>View Of Haarlem With Bleaching Fields</h1>
+        <h2>-By Jacob Van Ruisdael</h2>
+        <img src="card10.jpg" alt="View Of Haarlem With Bleaching Fields">
+        <p>Van Ruisdael was able to catch the essence of the Dutch landscape in this painting. We stare out across the flat plain toward the distant city of Haarlem from a high dune. There is a vast sky above the city with passing clouds. In his painting, Van Ruisdael depicts the sun as it moves from one area of light to another. From the fields where linen is stretched out to bleach to Saint Bavo's Church in the distance, he draws our eyes deep into the painting along the patches of sunshine.</p>
+        </center>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

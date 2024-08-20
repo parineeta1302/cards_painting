@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card 4 Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        .detail-container {
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 40px auto;
+            max-width: 800px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: rgb(48, 3, 161);
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: rgb(62, 2, 212);
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="detail-container">
+        <center>
+        <button onclick="goBack()">Back</button>
+        <h1>The Starry Night</h1>
+        <h2>-By Vincent Willem van Gogh</h2>
+        <img src="card4.jpg" alt="The Starry Night">
+        <p>The night sky, packed with stars and the moon, takes up most of this medium-sized oil painting on canvas. It occupies three-quarters of the picture plane and is characterized by strongly swirling patterns that seem to wash across its surface like waves. It also appears tumultuous, almost agitated. It is encircled by concentric circles of radiant white and yellow light and is pocked with luminous orbs, including the crescent moon to the far right and Venus, the morning star, to the left of the center.</p>
+        </center>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

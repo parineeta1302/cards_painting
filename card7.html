@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card 7 Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        .detail-container {
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 40px auto;
+            max-width: 800px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: rgb(48, 3, 161);
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: rgb(62, 2, 212);
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="detail-container">
+        <center>
+        <button onclick="goBack()">Back</button>
+        <h1>Starry Night On The Rhone</h1>
+        <h2>-By Vincent Willem Van Gogh</h2>
+        <img src="card7.jpg" alt="Starry Night On The Rhone">
+        <p>Van Gogh painted Starry Night Over the Rhone on the bank of the Rhône, which was just a short distance from the Yellow House on the Place Lamartine, where he resided. Some of his more well-known works, notably The Starry Night, the most well-known Van Gogh painting of night stars, were inspired by the night sky and the effects of lighting.</p>
+        </center>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

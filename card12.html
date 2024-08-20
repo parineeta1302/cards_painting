@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card 12 Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        .detail-container {
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 40px auto;
+            max-width: 800px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: rgb(48, 3, 161);
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: rgb(62, 2, 212);
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="detail-container">
+        <center>
+        <button onclick="goBack()">Back</button>
+        <h1>Wivenhoe Park</h1>
+        <h2>-By John Constable</h2>
+        <img src="card12.jpg" alt="Wivenhoe Park">
+        <p>No one can capture the English natural beauty like John Constable does. This almost photographic-clear environment exudes a lovely sense of calm and harmony. The artist's imaginative synthesis of the actual site is evident in the enormous sections of dazzling sunshine and cool shade, the rambling line of the fence, and the lovely balance of trees, meadows, and rivers.</p>
+        </center>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
